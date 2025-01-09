@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+       
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f3fc;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #5e35b1;
+            margin-bottom: 2rem;
+            animation: fadeIn 1s ease-out;
+        }
+
+        .education-entry {
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            background: #f7f3ff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(94, 53, 177, 0.1);
+            transform: translateY(20px);
+            opacity: 0;
+            animation: slideIn 1s ease-out forwards;
+        }
+
+        .education-entry:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+
+        .education-entry:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+
+        .education-entry h2 {
+            margin: 0;
+            font-size: 1.5rem;
+            color: #673ab7;
+        }
+
+        .education-entry p {
+            margin: 0.5rem 0;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .divider {
+            height: 2px;
+            background: #d1c4e9;
+            margin: 1.5rem 0;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        a {
+            color: #5e35b1;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        footer {
+            background: hotpink;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+  <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme5.html">About Me</a>
+        <a href="gambar.html">Gallery</a> 
+        <a href="experience.html">Experience</a>
+        <a href="#">Education</a>
+    </nav>
+    <div class="container">
+        <h1>Education</h1>
+
+        <div class="education-entry">
+            <h2>Sekolah Kebangsaan To' Uban</h2>
+            <p><strong>Year 1 - Year 12</strong></p>
+            <p>Graduation: December 2016</p>
+            <p>UPSR: 2A</p>
+
+        <div class="divider"></div>
+
+        <div class="education-entry">
+            <h2>Sekolah Menengah Kebangsaan To' Uban</h2>
+            <p><strong>Form 1 - Form 5</strong></p>
+            <p>Graduation: March 2022</p>
+            <p>PT3: 4A</p>
+            <p>SPM: 2A</p>
+
+        <div class="divider"></div>
+
+        <div class="education-entry">
+            <h2>University Technology Mara</h2>
+            <p><strong>Semester 1 - Semester 5 (2.5 Years)</strong></p>
+            <p>Graduation: February 2025</p>
+            <p>CGPA: 3.42</p>
+          
+        </div>
+
+    <footer>
+        <p>&copy; 2025 Izyan Maisarah Binti Mohd Noor. All rights reserved.</p>
+    </footer>
+    </div>
+</body>
+</html>

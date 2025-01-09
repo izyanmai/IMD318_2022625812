@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: lightpink;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px;
+      background-color: #6C63FF;
+      color: white;
+      font-size: 40px;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+
+    nav {
+      text-align: center;
+      margin: 20px 0;
+      background-color: #6C63FF;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .about-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 50px 10%;
+      background-color: white;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      padding: 40px;
+      overflow: hidden;
+    }
+
+    .about-text {
+      flex: 1;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .about-text h2 {
+      color: #6C63FF;
+      font-size: 32px;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+
+    .about-text p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .about-image {
+      flex: 1;
+      text-align: center;
+      padding-left: 30px;
+    }
+
+    .about-image img {
+      width: 80%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .about-image img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #6C63FF;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    /* Responsive layout */
+    @media (max-width: 768px) {
+      .about-container {
+        flex-direction: column;
+        margin: 20px;
+        padding: 30px;
+      }
+
+      .about-image img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">About Me</a>
+      <a href="gambar.html">Gallery</a>
+      <a href="experience.html">Experience</a>
+      <a href="edu.html">Education</a>
+    </nav>
+    About Me
+  </header>
+
+  <div class="about-container">
+    <div class="about-text">
+      <h2>Hello, I'm Izyan Maisarah!</h2>
+      <p>
+        I am currently pursuing my studies in Information Management, with a strong focus on records management and information technologies. I am eager to apply the theoretical knowledge I've gained in real-world settings, particularly within prestigious organizations. My goal is to immerse myself fully in professional environments, where I can further develop my skills, adapt to various challenges, and gain practical insights into the ever-evolving field of information management. By continuously learning and contributing, I aim to strengthen my abilities and acquire valuable knowledge that will propel me towards achieving my career goals.
+      </p>
+      <p>
+        Apart from work, I’m an avid traveler and enjoy exploring new cultures. I love photography, reading, and continuously expanding my skillset to keep up with industry trends. My goal is to work in an environment that values innovation and where I can collaborate with others to create meaningful solutions.
+      </p>
+    </div>
+
+    <div class="about-image">
+      <img src="images/me.jpeg" alt="Izyan Maisarah">
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Izyan Maisarah Binti Mohd Noor. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
